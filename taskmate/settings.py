@@ -90,7 +90,7 @@ DATABASES = {
     }
 }
 
-postgres://default:FO8ekRvCsjG9@ep-small-union-76491257.us-east-1.postgres.vercel-storage.com:5432/verceldb
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
