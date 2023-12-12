@@ -20,6 +20,7 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 DEBUG = env("DJANGO_DEBUG")
 
 ALLOWED_HOSTS = ['.vercel.app']
+CSRF_TRUSTED_ORIGINS= ['https://taskmate-rho.vercel.app/']
 
 
 # Application definition
