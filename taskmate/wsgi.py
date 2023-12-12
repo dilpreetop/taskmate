@@ -15,4 +15,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'taskmate.settings')
 
 application = get_wsgi_application()
 
-app = apllication
+#app = apllication
