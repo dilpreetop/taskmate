@@ -6,9 +6,9 @@ from django.contrib.auth.decorators import login_required
 def register(request):
     if request.method=="POST":
         register_form= CustomRegisterForm(request.POST)
-    if register_form.is_valid():
-        register_form.save()
-        messages.success(request,("A NEW USER ACCOUNT CREATED,PLEASE LOGIN"))
+        if register_form.is_valid():
+         register_form.save()
+         messages.success(request,("A NEW USER ACCOUNT CREATED,PLEASE LOGIN"))
         return redirect('register')
         
     else:
