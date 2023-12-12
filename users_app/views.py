@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from users_app.forms import CustomRegisterForm
 from django.contrib import messages
-
+from django.contrib.auth.decorators import login_required
 def register(request):
     if request.method=="POST":
         register_form= CustomRegisterForm(request.POST)
