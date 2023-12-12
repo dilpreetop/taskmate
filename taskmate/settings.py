@@ -21,7 +21,7 @@ DEBUG = env("DJANGO_DEBUG")
 
 ALLOWED_HOSTS = ['.vercel.app']
 CSRF_TRUSTED_ORIGINS= ['https://taskmate-rho.vercel.app/']
-AUTH_USER_MODEL = 'auth_users'
+AUTH_USER_MODEL = 'auth_user'
 
 
 # Application definition
