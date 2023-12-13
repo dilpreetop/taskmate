@@ -24,8 +24,8 @@ urlpatterns = [
     path('account/',include('users_app.urls')),# we are calling home page as index
     path('about', todolist_views.about, name='about'),
     path('contact',todolist_views.contact, name='contact'),
-    path('', auth_views.register, name='register'),
-    path('',auth_views.login, name='login'),
+    path('register', users_views.register, name='register'),
+    path('login',users_views.login, name='login'),
     
    
     
