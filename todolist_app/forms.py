@@ -1,6 +1,5 @@
 from django import forms
-from django.contrib.auth.models import User
-
+from todolist_app.models import TaskList
 
 class Taskform(forms.ModelForm):
     class Meta:
